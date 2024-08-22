@@ -1,0 +1,99 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(139, 137, 137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.bmicalc{
+    background: rgb(255, 255, 255) ;
+    padding: 25px;
+    border-radius: 5%;
+    width: 30%;
+    height:50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.bmicalc img{
+   
+   
+    width: 20%;
+    height: 20%;
+}
+form{
+    text-align: center;
+    padding: 10%;
+  
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+form input.btn{
+    background: rgb(38, 122, 239);
+    margin-top: 10px;
+    color: aliceblue;
+    border: 0cap;
+    border-radius: 10%;
+    width: fit-content;
+    height: 10%;
+    cursor: pointer;
+}
+
+
+
+
+.calc{
+    width: 25%;
+    height: auto;
+    background: #3a4452;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10%;
+ }
+ .calc form input{
+     border: 0;
+     outline: 0;
+     width: 60px;
+     height: 60px;
+     border-radius: 10px;
+     box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px -5px 15px rgba(0,0,0,0.2);
+     background: transparent;
+     font-size: 20px;
+     color: #e3f9ff;
+     cursor: pointer;
+ 
+ }
+ .calc h1{
+     display: flex;
+     justify-content: center;
+     color: antiquewhite;
+ }
+ form .display{
+     display: flex;
+     justify-content: flex-end;
+     margin: 20px 0;
+     background: #e3f9ff;
+     border-radius: 10px;
+ 
+    
+ }
+ form .display input{
+     text-align: right;
+     flex: 1;
+     box-shadow: none;
+     font-size: 24px;
+     color: black;
+     
+ }
+ form input.equal{
+     width: 145px;
+ }
+ form input.operator{
+     color: aqua;
+ }
